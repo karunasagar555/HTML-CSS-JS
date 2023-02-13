@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, width, borders and backgrounds</title>
+    <style>
+        #firstPara{
+            background-color: aqua;
+            height: 100px;
+            width: 455px;
+            border: 4px solid green; /*border:(width, style,color)*/
+            border-radius: 12px; /*for curved edges*/
+        }
+        #secondPara{
+            background-color: rgb(65, 151, 66);
+            height: 100px;
+            width: 455px;
+            border-top: 4px solid violet;
+            border-bottom: 4px solid rgb(32, 1, 32);
+            border-right: 4px solid rgb(64, 9, 202);
+            border-left: 4px solid rgb(173, 11, 11);
+            border-top-left-radius: 12px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 16px;
+        }
+        #thirdPara{
+            height: 600px;
+            width: 700px;
+            background-image: url('https://www.treehugger.com/thmb/ifuEx0MOjhfNU2jHtMisIpy1NUQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__06__nature-phpoto-day-squirrel-6b50719b524c4ecbb3152a32baa38367.jpg');
+            border: 2px solid red; 
+            background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis */
+            background-position: center center; /* (or) background-position: 192px 20px; in X and Y axis */
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstPara">This is a paragraph</p>
+
+    <h3>This is second heading</h3>
+    <p id="secondPara">This is my second paragraph</p>
+
+    <h3>This is third heading</h3>
+    <p id="thirdPara">This is my third paragraph</p>
+</body>
+</html>
